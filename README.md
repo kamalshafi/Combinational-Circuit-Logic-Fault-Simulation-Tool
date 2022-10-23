@@ -10,10 +10,10 @@ The input to your program is an ISCAS-85 benchmark combinational circuit (.isc),
 vec: This file contains information about the input vectors (values at the primary inputs). Each line in this file is a input vector. The total number of characters in each line is equal to the number of primary inputs in the corresponding circuit. The characters in the line represents ’0’: logic zero, ’1’: logic one, ’x’: don’t care value. During simulation, the ’x’ is considered as ’2’. The .vec file contains only few input vector of all possible input vectors of the circuit.
 .faults: This file contains information about the fault nodes and its struck at value of a particular circuit. Each line in this file is about the single stuck-at fault. The line 3n1 represents gate with the id ’3’ has struck at the value ’1’. The .faults file contains only few faults among all possible faults of the circuit
 
-##Implementation
+## Implementation
 Run the make file with arrguments of input and output
 
-##Output 
+## Output 
 ".Response" Contains data of logic simulation of the circuit
 ".result" contains data of the fault simulation of the circuit
 

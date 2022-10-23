@@ -1,0 +1,40 @@
+2 1:
+000xx  Detected
+x10xx NotDetected
+1x1xx NotDetected
+11001 NotDetected
+00111 NotDetected
+11111 NotDetected
+
+11 0:
+000xx NotDetected
+x10xx  Detected
+1x1xx NotDetected
+11001  Detected
+00111 NotDetected
+11111 NotDetected
+
+22 0:
+000xx NotDetected
+x10xx  Detected
+1x1xx  Detected
+11001  Detected
+00111 NotDetected
+11111  Detected
+
+16 1:
+000xx NotDetected
+x10xx  Detected
+1x1xx NotDetected
+11001  Detected
+00111 NotDetected
+11111 NotDetected
+
+6 1:
+000xx NotDetected
+x10xx NotDetected
+1x1xx NotDetected
+11001 NotDetected
+00111 NotDetected
+11111 NotDetected
+
